@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body ng-app="app">
+<div>
+    <button ng-click="loading = !loading" class="btn">Click me and I'll make you happy</button>
+    <hr />
+    <smart-button make-transparent loading="loading" test="text"></smart-button>
+</div>
+
+</body>
+</html>

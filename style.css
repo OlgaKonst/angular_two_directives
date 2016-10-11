@@ -1,0 +1,8 @@
+div {
+    text-align: center;
+}
+.btn{
+    background-color: aqua;
+    border-radius: 10%;
+    height: 30px;
+}
